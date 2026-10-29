@@ -249,12 +249,6 @@ private:                                          // Private data follows
     std::array<std::array<int, SIZE>, SIZE> grid; // The 9x9 grid of digits (0 = empty)
 }; // End of Board
 
-// ---------------------------------------------------------------------------  // Section divider
-// SudokuSolver: recursive DFS with backtracking. Prints each solution as it is found.  // Describes the class purpose
-// Assignment 5 revision (Yabsira Tamirat): removed the 100-solution  // Who changed this class
-// limit so every solution is found, and solutions are now written to the screen  // What changed
-// and the solution file as soon as they are found instead of stored in a vector.  // Why (less memory)
-// ---------------------------------------------------------------------------  // Section divider
 class SudokuSolver
 {                                                                               // Start of the SudokuSolver class
 public:                                                                         // Public members follow
